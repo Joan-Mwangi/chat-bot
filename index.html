@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>E-Commerce Chat App</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="app-container">
+    <!-- Home Page -->
+    <div class="home-page" id="home-page">
+      <h1>Chats</h1>
+      <div class="contact-list" id="contact-list">
+        <!-- Contacts will load here -->
+      </div>
+    </div>
+
+    <!-- Chat Page (hidden by default) -->
+    <div class="chat-page" id="chat-page" style="display: none;">
+      <div class="chat-header">
+        <button id="back-button">← Back</button>
+        <h2 id="chat-title">Order #1234</h2>
+      </div>
+      <div class="chat-messages" id="chat-messages"></div>
+      <div class="chat-input">
+        <input type="text" id="message-input" placeholder="Type a message...">
+        <button id="send-button">Send</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="home-page" id="home-page">
+    <h1>Your Chats</h1>
+    <div class="contact-list" id="contact-list">
+      <!-- Contacts will load here with avatars -->
+    </div>
+  </div>
+  
+  <script src="script.js"></script>
+</body>
+</html>
